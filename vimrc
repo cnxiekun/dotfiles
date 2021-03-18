@@ -119,3 +119,8 @@ set nomodeline
 
 " ================ Custom Settings ========================
 so ~/.yadr/vim/settings.vim
+
+noremap <Leader>Y "+y
+noremap <Leader>P "+p
+
+set clipboard=unnamedplus
