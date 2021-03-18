@@ -163,7 +163,7 @@ alias sgi='sudo gem install --no-ri --no-rdoc'
 # TODOS
 # This uses NValt (NotationalVelocity alt fork) - http://brettterpstra.com/project/nvalt/
 # to find the note called 'todo'
-alias todo='open nvalt://find/todo'
+# alias todo='open nvalt://find/todo'
 
 # Forward port 80 to 3000
 alias portforward='sudo ipfw add 1000 forward 127.0.0.1,3000 ip from any to any 80 in'
@@ -211,3 +211,18 @@ alias dbmu='spring rake db:migrate:up'
 
 # Homebrew
 alias brewu='brew update && brew upgrade && brew cleanup && brew doctor'
+
+alias pip='pip3'
+alias python='python3'
+
+# ssh Tencent server
+alias mnet='ssh kunxie@csig.mnet2.com -p 36000'
+alias sshjupyter='ssh kunxie@9.135.13.184 -p 36000'
+
+# open 工作管理.md
+alias todo='open ~/Desktop/TODO.md'
+
+# open files with specific application
+alias vsc='open -a "Visual Studio Code"'
+alias tp='open -a "Typora"'
+
